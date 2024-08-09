@@ -1,20 +1,20 @@
 {
   "name": "assets",
   "description": "assets",
-  "version": "1.0.0",
+  "version": "1.5.4",
   "scripts": {
     "build": "yarn",
     "start": "yarn run"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MINECRAFTGOLDFISH3/assets.git"
+    "url": "https://github.com/xlluminate/assets.git"
   },
   "keywords": [],
-  "author": "MINECRAFTGOLDFISH3",
+  "author": "xlluminate",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/MINECRAFTGOLDFISH3/assets/issues"
+    "url": "https://github.com/xlluminate/assets/issues"
   },
-  "homepage": "https://github.com/MINECRAFTGOLDFISH3/assets"
+  "homepage": "https://github.com/xlluminate/assets"
 }

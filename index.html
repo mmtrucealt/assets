@@ -2,10 +2,33 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>assets | minecraftgoldfish3.github.io</title>
-        <link rel="stylesheet" href="style.css" type="text/css" />
+        <title></title>
+        <style>
+            body {
+                background-color: #ffffff;
+                color: #000000;
+                font-family: Arial;
+                text-align: center;
+            }
+
+            a {
+                color: #007dcc;
+                text-decoration: none;
+            }
+
+                a:hover {
+                    color: #016aad;
+                    text-decoration: underline;
+                    cursor: pointer;
+                }
+        </style>
     </head>
     <body>
-        <h1>minecraftgoldfish3.github.io</h1>
+        <center><h1 id="text"></h1></center>
+        <script>
+            document.getElementById('text').innerHTML = window.location.href;
+            document.title = window.location.href;
+        </script>
+        <script src="/js/main.js"></script>
     </body>
 </html>
